@@ -1,4 +1,4 @@
-module github.com/golang-microservices/concurrency
+module github.com/golang-common-packages/concurrency
 
 go 1.13
 
