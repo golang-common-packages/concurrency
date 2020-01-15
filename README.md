@@ -7,7 +7,7 @@ import (
     "time"
     "fmt"
     
-    "github.com/golang-microservices/template/common/util/concurrency"
+    "github.com/golang-microservices/concurrency"
 )
 
 func main() {
