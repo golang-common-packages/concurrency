@@ -7,7 +7,7 @@ import (
     "time"
     "fmt"
     
-	"github.com/golang-microservices/template/common/util/concurrency"
+    "github.com/golang-microservices/template/common/util/concurrency"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
             }
     }
 
-    Con:=&Concurrency.Concurrent{}
+    Con := &Concurrency.Concurrent{}
     
     Con.Parallelize(func1, func2)  // a 1 b 2 c 3
     
